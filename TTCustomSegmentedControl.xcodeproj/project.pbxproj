@@ -15,6 +15,7 @@
 		D26CFC981C9FDE9500CE736F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D26CFC961C9FDE9500CE736F /* LaunchScreen.storyboard */; };
 		D26CFCA31C9FDE9500CE736F /* TTCustomSegmentedControlTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D26CFCA21C9FDE9500CE736F /* TTCustomSegmentedControlTests.m */; };
 		D26CFCAE1C9FDE9500CE736F /* TTCustomSegmentedControlUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D26CFCAD1C9FDE9500CE736F /* TTCustomSegmentedControlUITests.m */; };
+		D26CFCBD1C9FDEB500CE736F /* TTCustomSegmentedControl.m in Sources */ = {isa = PBXBuildFile; fileRef = D26CFCBC1C9FDEB500CE736F /* TTCustomSegmentedControl.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		D26CFCA91C9FDE9500CE736F /* TTCustomSegmentedControlUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TTCustomSegmentedControlUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D26CFCAD1C9FDE9500CE736F /* TTCustomSegmentedControlUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TTCustomSegmentedControlUITests.m; sourceTree = "<group>"; };
 		D26CFCAF1C9FDE9500CE736F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D26CFCBB1C9FDEB500CE736F /* TTCustomSegmentedControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTCustomSegmentedControl.h; sourceTree = "<group>"; };
+		D26CFCBC1C9FDEB500CE736F /* TTCustomSegmentedControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTCustomSegmentedControl.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				D26CFC8C1C9FDE9500CE736F /* AppDelegate.m */,
 				D26CFC8E1C9FDE9500CE736F /* ViewController.h */,
 				D26CFC8F1C9FDE9500CE736F /* ViewController.m */,
+				D26CFCBB1C9FDEB500CE736F /* TTCustomSegmentedControl.h */,
+				D26CFCBC1C9FDEB500CE736F /* TTCustomSegmentedControl.m */,
 				D26CFC911C9FDE9500CE736F /* Main.storyboard */,
 				D26CFC941C9FDE9500CE736F /* Assets.xcassets */,
 				D26CFC961C9FDE9500CE736F /* LaunchScreen.storyboard */,
@@ -271,6 +276,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D26CFC901C9FDE9500CE736F /* ViewController.m in Sources */,
+				D26CFCBD1C9FDEB500CE736F /* TTCustomSegmentedControl.m in Sources */,
 				D26CFC8D1C9FDE9500CE736F /* AppDelegate.m in Sources */,
 				D26CFC8A1C9FDE9500CE736F /* main.m in Sources */,
 			);
